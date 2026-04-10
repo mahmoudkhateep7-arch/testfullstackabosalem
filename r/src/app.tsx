@@ -1,6 +1,6 @@
 import { useState } from "react"
 import axios from 'axios'
-const urll = import.meta.env.VITE_API_URL || 'http://localhost:3000/gettext'
+const urll = import.meta.env.VITE_API_URL || "/api/gettext";
 
 export default function App() {
   const [response, setresponse] = useState('')
